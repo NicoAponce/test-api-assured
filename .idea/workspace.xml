@@ -58,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.ReqResTests.patchUserTest">
+  <component name="RunManager" selected="Gradle.ReqResTests.putUserTest">
     <configuration name="ReqResTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,9 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReqResTests.putUserTest" />
         <item itemvalue="Gradle.ReqResTests.patchUserTest" />
         <item itemvalue="Gradle.ReqResTests.deleteUserTest" />
-        <item itemvalue="Gradle.ReqResTests.putUserTest" />
         <item itemvalue="Gradle.ReqResTests" />
         <item itemvalue="Gradle.ReqResTests.getSingleUserTest" />
       </list>
@@ -176,21 +176,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="555" key="GridCell.Tab.0.bottom" timestamp="1605815834432">
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom" timestamp="1605815851144">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.bottom/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815834432" />
-    <state width="1322" height="555" key="GridCell.Tab.0.center" timestamp="1605815834432">
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815851144" />
+    <state width="1322" height="555" key="GridCell.Tab.0.center" timestamp="1605815851144">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.center/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815834432" />
-    <state width="1322" height="555" key="GridCell.Tab.0.left" timestamp="1605815834432">
+    <state width="1322" height="555" key="GridCell.Tab.0.center/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815851144" />
+    <state width="1322" height="555" key="GridCell.Tab.0.left" timestamp="1605815851144">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.left/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815834432" />
-    <state width="1322" height="555" key="GridCell.Tab.0.right" timestamp="1605815834432">
+    <state width="1322" height="555" key="GridCell.Tab.0.left/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815851144" />
+    <state width="1322" height="555" key="GridCell.Tab.0.right" timestamp="1605815851144">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.right/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815834432" />
+    <state width="1322" height="555" key="GridCell.Tab.0.right/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815851144" />
   </component>
 </project>
