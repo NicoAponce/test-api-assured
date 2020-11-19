@@ -58,7 +58,45 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.ReqResTests.getSingleUserTest">
+  <component name="RunManager" selected="Gradle.ReqResTests.deleteUserTest">
+    <configuration name="ReqResTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ReqResTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqResTests.deleteUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ReqResTests.deleteUserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ReqResTests.getSingleUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -78,12 +116,31 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReqResTests.loginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ReqResTests.patchUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ReqResTests.loginTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ReqResTests.patchUserTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReqResTests.putUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ReqResTests.putUserTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -99,8 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ReqResTests.deleteUserTest" />
+        <item itemvalue="Gradle.ReqResTests.putUserTest" />
+        <item itemvalue="Gradle.ReqResTests.patchUserTest" />
+        <item itemvalue="Gradle.ReqResTests" />
         <item itemvalue="Gradle.ReqResTests.getSingleUserTest" />
-        <item itemvalue="Gradle.ReqResTests.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -116,21 +176,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="555" key="GridCell.Tab.0.bottom" timestamp="1605811853437">
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom" timestamp="1605815649737">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.bottom/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605811853437" />
-    <state width="1322" height="555" key="GridCell.Tab.0.center" timestamp="1605811853436">
+    <state width="1322" height="555" key="GridCell.Tab.0.bottom/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815649737" />
+    <state width="1322" height="555" key="GridCell.Tab.0.center" timestamp="1605815649737">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.center/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605811853436" />
-    <state width="1322" height="555" key="GridCell.Tab.0.left" timestamp="1605811853436">
+    <state width="1322" height="555" key="GridCell.Tab.0.center/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815649737" />
+    <state width="1322" height="555" key="GridCell.Tab.0.left" timestamp="1605815649737">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.left/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605811853436" />
-    <state width="1322" height="555" key="GridCell.Tab.0.right" timestamp="1605811853437">
+    <state width="1322" height="555" key="GridCell.Tab.0.left/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815649737" />
+    <state width="1322" height="555" key="GridCell.Tab.0.right" timestamp="1605815649737">
       <screen x="0" y="32" width="1366" height="736" />
     </state>
-    <state width="1322" height="555" key="GridCell.Tab.0.right/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605811853437" />
+    <state width="1322" height="555" key="GridCell.Tab.0.right/0.32.1366.736/1366.0.1024.768@0.32.1366.736" timestamp="1605815649737" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-Request method:	GET
+Request method:	DELETE
 +Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
@@ -10,35 +10,15 @@
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-HTTP/1.1 200 OK
-$Date: Thu, 19 Nov 2020 18:56:34 GMT
-.Content-Type: application/json; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-¡Set-Cookie: __cfduid=d6a4813d61958c148c17d61d8e4eef9051605812194; expires=Sat, 19-Dec-20 18:56:34 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-*Etag: W/"133-LSMNaMLmUUW7mb0QKapIU3FQUI0"
-Via: 1.1 vegur
-CF-Cache-Status: DYNAMIC
-0cf-request-id: 068376a42d0000288d09264000000001
-cExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-ßReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=gqlj%2B5GyBERl4mYzmAAiwQM07VOwITh6SPk48aYwIaIRfIfCz3pk9%2BhCRgO%2BAAI2RNAjTXjoB%2BdxbK2g4thYRMpKnzpNQW2dnrI%3D"}],"group":"cf-nel","max_age":604800}
--NEL: {"report_to":"cf-nel","max_age":604800}
-Server: cloudflare
-CF-RAY: 5f4c26e6aece288d-SCL
-Content-Encoding: gzip
-
-{
-    "data": {
-        "id": 2,
-+        "email": "janet.weaver@reqres.in",
-        "first_name": "Janet",
-        "last_name": "Weaver",
-W        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
-    },
-    "support": {
-5        "url": "https://reqres.in/#support-heading",
-[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
-    }
-}
+Request method:	DELETE
++Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
