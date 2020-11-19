@@ -1,0 +1,44 @@
+Request method:	GET
++Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+1				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+$Date: Thu, 19 Nov 2020 18:49:50 GMT
+.Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+¡Set-Cookie: __cfduid=d4bd6d6985782b36cb30ba300ae665db21605811789; expires=Sat, 19-Dec-20 18:49:49 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+*Etag: W/"133-LSMNaMLmUUW7mb0QKapIU3FQUI0"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+0cf-request-id: 068370783c000074df7c38f000000001
+cExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+áReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=m6mUNEBEVRF7h46dbPm1bVxkBbtyxpSE6mWyF8X7n0RRTlo%2B%2BdGzljCmLHiohe%2BOq7eV%2FDfl36fEYJSRPL1fs8QgUAY%2BklH6awc%3D"}],"group":"cf-nel","max_age":604800}
+-NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 5f4c1d06cfb074df-EZE
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 2,
++        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+W        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
