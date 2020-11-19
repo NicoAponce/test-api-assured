@@ -1,4 +1,4 @@
-Request method:	DELETE
+Request method:	PATCH
 +Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
@@ -9,8 +9,12 @@
 1				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
-Request method:	DELETE
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request method:	PATCH
 +Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
@@ -21,4 +25,8 @@
 1				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}

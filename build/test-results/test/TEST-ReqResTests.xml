@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:54:52" hostname="jinyor" time="3.16">
+<testsuite name="ReqResTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-19T19:57:27" hostname="jinyor" time="4.603">
   <properties/>
-  <testcase name="deleteUserTest" classname="ReqResTests" time="3.16"/>
-  <system-out><![CDATA[Request method:	DELETE
+  <testcase name="patchUserTest" classname="ReqResTests" time="4.603"/>
+  <system-out><![CDATA[Request method:	PATCH
 Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
@@ -13,8 +13,12 @@ Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
-Request method:	DELETE
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request method:	PATCH
 Request URI:	https://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
@@ -25,7 +29,11 @@ Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
